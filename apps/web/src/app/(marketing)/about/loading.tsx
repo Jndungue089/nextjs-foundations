@@ -1,5 +1,5 @@
 async function getAboutData() {
-    await new Promise(resolve => setTimeout(resolve, 3000))
+    await new Promise(resolve => setTimeout(resolve, 2000))
     return { founded: 2026, team: 'Distributed' }
 }
 
